@@ -7,6 +7,10 @@ $(document).on("keypress", function() {
   gameSetup();
 });
 
+$("h1").on("click", function() {
+  gameSetup();
+})
+
 function gameSetup() {
   gamePattern = [];
   numButtonClicked =  0;
